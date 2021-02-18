@@ -1,0 +1,14 @@
+<resources>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="time_for_the_recipe_to_be_ready">Time for the recipe to be ready</string>
+    <string name="recipe_picture">Recipe picture</string>
+    <string name="remove_this_item_from_the_list">Remove this item from the list</string>
+    <string name="what_do_you_have_in_your_kitchen">What do I have in my kitchen?</string>
+    <string name="add_this_item_to_the_list">Add this item to the list</string>
+    <string name="app_logo">App logo</string>
+    <string name="what_can_i_do_with_those">What can I do with these?</string>
+    <string name="number_of_servings">Number of servings</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="instructions">Instructions</string>
+</resources>

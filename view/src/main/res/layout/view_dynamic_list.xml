@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="addButtonListener"
+            type="android.view.View.OnClickListener" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="5dp">
+
+            <EditText
+                android:id="@+id/ingredientInput"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="20dp"
+                android:layout_weight="0.9"
+                android:inputType="textCapSentences"
+                android:lines="1"
+                android:hint="@string/what_do_you_have_in_your_kitchen"
+                android:imeOptions="actionDone"
+                android:textColorHint="#d9d9d9"
+                android:textColor="#000000"/>
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"
+                android:onClick="@{addButtonListener}"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/add_this_item_to_the_list"
+                android:padding="0dp"
+                android:src="@drawable/ic_baseline_add_circle_outline_24" />
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            tools:listitem="@layout/view_dynamic_list_item"/>
+
+    </LinearLayout>
+</layout>
