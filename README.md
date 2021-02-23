@@ -42,7 +42,7 @@ As a direct consequence of this guideline, **this app and its project should not
 
 > Como uma consequência direta desse princípio, **esse aplicativo e seu projeto não devem ser monetizados ou comercializados de forma alguma**.
 
-## How to install
+## How to install | Como instalar
 This project is actually a very simple straight-forward Android application, so no big mysteries here. 
 
 > Esse projeto é na verdade uma aplicação bem simples e direta, sem grandes mistérios.
