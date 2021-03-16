@@ -1,6 +1,0 @@
-include ':core'
-include ':model'
-include ':view'
-include ':api'
-include ':app'
-rootProject.name = "Scrappie"
